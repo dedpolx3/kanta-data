@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "provider": {
+    "id": "komunala-radgona",
+    "name": "Komunala Radgona d.o.o.",
+    "website": "https://www.komunala-radgona.si",
+    "phone": "080 17 27",
+    "colors": {
+      "MKO": "#3B3F44",
+      "BIO": "#7B4A2A",
+      "EMB": "#F2C230",
+      "PAP": "#2F6FB5",
+      "STE": "#23744A"
+    }
+  },
+  "municipality": {
+    "id": "gornja-radgona",
+    "name": "Obcina Gornja Radgona",
+    "postcode": "9250"
+  },
+  "zones": [
+    {
+      "id": "gornja-radgona",
+      "name": "Celotna obcina"
+    }
+  ],
+  "coversFrom": "2026-01-01",
+  "coversTo": "2026-12-31",
+  "source": "https://www.komunala-radgona.si",
+  "retrievedAt": "2026-10-25",
+  "collections": [
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-05",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-07",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-08",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-19",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-26",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-01-29",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-04",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-09",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-11",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-12",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-16",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-02-26",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-02",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-04",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-09",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-12",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-23",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-26",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-03-30",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-01",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-08",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-09",
+      "fraction": "BIO",
+      "flags": [
+        "PRANJE"
+      ]
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-15",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-16",
+      "fraction": "BIO",
+      "flags": [
+        "PRANJE"
+      ]
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-20",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-22",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-23",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-29",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-04-30",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-06",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-07",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-09",
+      "fraction": "NEV"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-11",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-14",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-20",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-21",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-27",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-05-28",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-01",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-03",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-04",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-10",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-11",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-17",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-18",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-22",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-24",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-06-24",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-01",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-02",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-09",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-13",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-15",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-16",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-22",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-23",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-29",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-07-30",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-03",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-05",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-06",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-12",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-13",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-19",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-20",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-24",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-26",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-08-27",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-03",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-09",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-10",
+      "fraction": "BIO",
+      "flags": [
+        "PRANJE"
+      ]
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-14",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-16",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-17",
+      "fraction": "BIO",
+      "flags": [
+        "PRANJE"
+      ]
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-23",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-24",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-09-30",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-05",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-08",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-12",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-14",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-22",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-10-26",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-02",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-05",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-11",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-16",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-19",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-23",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-11-25",
+      "fraction": "STE"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-07",
+      "fraction": "EMB"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-09",
+      "fraction": "PAP"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-10",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-14",
+      "fraction": "MKO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-24",
+      "fraction": "BIO"
+    },
+    {
+      "zoneId": "gornja-radgona",
+      "date": "2026-12-28",
+      "fraction": "EMB"
+    }
+  ],
+  "rules": [],
+  "exceptions": [],
+  "onCall": [
+    {
+      "fraction": "KOS",
+      "phone": "080 17 27",
+      "note": "Odvoz na klic."
+    }
+  ]
+}

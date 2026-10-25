@@ -1,0 +1,63 @@
+name: Validate and publish
+
+# These files are what a household's app reads to learn next year's calendar.
+# Publishing is a push to main.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never let two deploys race: a half-published dataset is worse than an old one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate the dataset
+        run: python -I tools/validate_dataset.py .
+
+  publish:
+    needs: validate
+    # Pull requests are validated but never deployed.
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # Only the JSON is served. The converter and validator stay in the repository.
+      - name: Stage the JSON
+        run: |
+          mkdir -p _site
+          cp *.json _site/
+          echo "publishing:"
+          ls -l _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4

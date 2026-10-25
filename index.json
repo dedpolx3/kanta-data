@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "municipalityId": "gornja-radgona",
+      "municipalityName": "Obcina Gornja Radgona",
+      "postcode": "9250",
+      "year": 2026,
+      "path": "gornja-radgona-2026.json",
+      "version": 1,
+      "schemaVersion": 1,
+      "coversFrom": "2026-01-01",
+      "coversTo": "2026-12-31"
+    }
+  ]
+}
