@@ -1,0 +1,6 @@
+# The published JSON is consumed byte for byte and its `version` field is meant
+# to change only when the data does. Pin line endings so a Windows checkout
+# cannot republish a file that differs from the one the converter wrote.
+* text=auto
+*.json text eol=lf
+*.py text eol=lf
