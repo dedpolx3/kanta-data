@@ -52,11 +52,10 @@ jobs:
           echo "publishing:"
           ls -l _site
 
-      # enablement turns Pages on for the repository the first time this runs, so
-      # publishing does not depend on someone having flipped a settings toggle.
+      # Requires Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+      # Trying to enable it from here (enablement: true) is refused: the workflow
+      # token is not allowed to create the Pages site on this repository.
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
