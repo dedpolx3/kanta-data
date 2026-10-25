@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": 1,
+  "version": 2,
   "provider": {
     "id": "komunala-radgona",
     "name": "Komunala Radgona d.o.o.",
@@ -16,13 +16,13 @@
   },
   "municipality": {
     "id": "gornja-radgona",
-    "name": "Obcina Gornja Radgona",
+    "name": "Občina Gornja Radgona",
     "postcode": "9250"
   },
   "zones": [
     {
       "id": "gornja-radgona",
-      "name": "Celotna obcina"
+      "name": "Celotna občina"
     }
   ],
   "coversFrom": "2026-01-01",

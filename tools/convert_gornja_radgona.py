@@ -234,7 +234,7 @@ def main():
     zone = "gornja-radgona"
     provider_file = {
         "schemaVersion": 1,
-        "version": 1,
+        "version": 2,
         "provider": {
             "id": "komunala-radgona",
             "name": "Komunala Radgona d.o.o.",
@@ -243,8 +243,8 @@ def main():
             "colors": {"MKO": "#3B3F44", "BIO": "#7B4A2A", "EMB": "#F2C230",
                        "PAP": "#2F6FB5", "STE": "#23744A"},
         },
-        "municipality": {"id": zone, "name": "Obcina Gornja Radgona", "postcode": "9250"},
-        "zones": [{"id": zone, "name": "Celotna obcina"}],
+        "municipality": {"id": zone, "name": "Občina Gornja Radgona", "postcode": "9250"},
+        "zones": [{"id": zone, "name": "Celotna občina"}],
         "coversFrom": "2026-01-01",
         "coversTo": "2026-12-31",
         "source": "https://www.komunala-radgona.si",
@@ -263,11 +263,11 @@ def main():
         "schemaVersion": 1,
         "files": [{
             "municipalityId": zone,
-            "municipalityName": "Obcina Gornja Radgona",
+            "municipalityName": "Občina Gornja Radgona",
             "postcode": "9250",
             "year": 2026,
             "path": "gornja-radgona-2026.json",
-            "version": 1,
+            "version": 2,
             "schemaVersion": 1,
             "coversFrom": "2026-01-01",
             "coversTo": "2026-12-31",
